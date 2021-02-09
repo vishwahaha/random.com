@@ -1,0 +1,135 @@
+body{
+    background-color: #242222;
+    font-family: 'Ubuntu', sans-serif;
+}
+/* navbar */
+.navbar{
+    margin-top: 0.5rem;
+}
+.nav-brand-logo{
+    height: 50px;
+    margin-left: 4rem;
+}
+.nav-link{
+    font-size: 1.3rem;
+    margin: 0 4rem;
+}
+
+/* carousel */
+#intro{
+    text-align: center !important;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+.carousel-item{
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+    height: 27rem;
+}
+.carousel-welcome-msg{
+    background-color: #242222;
+    color: #fbff2b;
+    margin: auto;
+    width: 30rem;
+    padding: 1rem;
+}
+.carousel-welcome-msg h1{
+    font-size: 6rem;
+}
+.carousel-item-1{
+    background-color: #fbff2b;
+    border-radius: 1%;
+    width: 65%;
+    height: 100%;
+    margin: auto;
+    padding: 10%;
+}
+.carousel-item-2{
+    background-color: #fbff2b;
+    border-radius: 1%;
+    width: 65%;
+    height: 100%;
+    margin: auto;
+    padding: 10%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.right-side-item2{
+    background-color: #242222;
+    color: #fbff2b;
+    line-height: 1.5;
+}
+.item-3-wrapper{
+    margin-bottom: 5rem;
+}
+.carousel-item-3{
+    background-color: #fbff2b;
+    border-radius: 1%;
+    width: 65%;
+    height: 100%;
+    margin: auto;
+    padding: 5rem 10%;
+}
+.carousel-item-3 ul{
+    font-size: 1.5rem;
+}
+/* Some fun random websites */
+#random-websites{
+   padding-left: 17%;
+   padding-right: 17%;
+   text-align: center;
+   margin-bottom: 5rem;
+}
+#random-websites a{
+    text-decoration: none;
+    color: #fbff2b;
+}
+.section-heading{
+    color: #242222;
+    background-color: #F7CE00;
+    display: inline-block;
+    font-weight: 900;
+    font-family: 'Source Code Pro', monospace;
+    margin: 4rem auto;
+}
+.world-random{
+    color: beige;
+    font-size: 1.7rem;
+    display: flex;
+    text-align: left;
+    align-items: center;
+}
+.world-random p{
+    margin-left: 3rem;
+}
+.world-random img{
+    width: 17rem;
+    border-radius: 50%;
+}
+.yt-icon{
+    color:  #f5d63c;
+    font-size: 13rem;
+    margin-left: 4rem;
+}
+.yt-section-heading{
+    margin: 4rem auto 0;
+}
+.gamepad-icon{
+    margin-left: 13rem !important;
+}
+footer{
+    background-color: #f5d63c;
+    width: 100%;
+    padding: 3% 15%;
+    text-align: center;
+}
+footer a{
+    text-decoration: none;
+    color:#242222;
+    font-size: 1.5rem;
+    margin: 1.7rem;
+}
+footer a:hover{
+    color:#ff4c68;
+    text-decoration: none;
+}
